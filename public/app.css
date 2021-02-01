@@ -1,0 +1,119 @@
+:root {
+	--brand-blue: #003954;
+	--brand-dark-blue: #012A3A;
+	--brand-white: #FFFFFF;
+	--brand-off-white: #EFEFEF;
+}
+
+* {
+	font-family: 'Fauna One', serif;
+	color: var(--brand-blue);
+	font-size: 20px;
+}
+
+body {
+	background-color: var(--brand-off-white);
+}
+
+.background-image {
+	background-image: url('/background.jpg');
+	background-size: cover;
+	background-position: center center; 
+	min-height: 300px; 
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	
+	color: var(--brand-blue);
+}
+
+h1:after {
+	content: "";
+	display: block;
+	height: 3px;
+	background: var(--brand-blue);
+	width: 25%;
+	margin-top: 16px;
+	font-size: 72px;
+}
+
+.form-group {
+	margin-top: 26px;
+}
+
+.form-group .form-control {
+	border-radius: 0;
+	border: 2px solid var(--brand-blue);
+	color: #000;
+	height: 62px;
+}
+
+.form-group textarea.form-control {
+	height: 120px;
+}
+
+.form-group .form-control,
+.form-actions  {
+	max-width: 70%;
+}
+
+.interestsInput img {
+	height: 47px;
+}
+
+.interestsInput button {
+	padding: 0;
+	border: 0;
+}
+
+.interestsInput button,
+.interestsInput div,
+.interest-item span, 
+.interest-item a {
+	vertical-align: middle;
+	line-height: 1;
+}
+
+.interest-item a img {
+	height: 24px;
+}
+
+.form-actions  button {
+	text-transform: uppercase;
+	background: var(--brand-white);
+	border: 2px solid var(--brand-blue);
+	border-radius: 20px;
+	padding: 8px 42px;
+	box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.48);
+	min-width: 180px;
+}
+
+.profile .interest-item {
+	font-size: 16px;
+}
+
+@media all and (min-width:  768px) {
+	.content {
+		height: 100vh;
+	}
+
+	h1 {
+		font-size: 98px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
